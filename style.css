@@ -410,6 +410,44 @@ p#faq {
     letter-spacing: -0.96px;
 }
 
+p.faq-head {
+    color: var(--Gray-900, #101828);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+p.faq-para {
+    color: var(--Gray-600, #475467);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.open-faq {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--Gray-50, #F9FAFB);
+}
+
+.faq-button{
+    cursor: pointer;
+}
+
+.close-faq {
+    padding: 32px;
+    gap: 20px;
+    border-bottom: 1px solid #EAECF0;
+    justify-content: space-between;
+}
+
 p#section-4-para {
     color: var(--Gray-500, #667085);
     font-family: 'Inter', sans-serif;
