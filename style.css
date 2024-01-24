@@ -471,10 +471,15 @@ p#section-4-para {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    cursor: pointer;
+}
+
+.section-6-column img{
+    cursor: pointer;
 }
 
 .section-6-column {
-    width: 160px;
+    /* width: 120px; */
 }
 
 p.list-head {
